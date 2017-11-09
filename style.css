@@ -53,6 +53,13 @@ table {
  *###################
  */
 
+header {
+	background: gray;
+	padding: 20px 0;
+	margin-bottom: 50px;
+	color: white;
+}
+
 body {
 	font-size: 16px;
 }
@@ -64,6 +71,7 @@ main{
 
 h1 {
 	margin: 0 auto;
+	margin-bottom: 15px;
 	/*padding: 5px 10px;*/
 	/*border: 2px dashed navy;*/
 	width: 100%;
@@ -89,4 +97,10 @@ h2 {
 p {
 	margin-bottom: 30px; /* 30px is required*/
 	line-height: 25px;
+}
+
+footer {
+	background: green;
+	padding: 20px 0;
+	color: white;
 }
