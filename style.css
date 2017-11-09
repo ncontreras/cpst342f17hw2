@@ -114,3 +114,8 @@ footer .sitemap {
   float: right;
   padding-right: 50px;
 }
+
+
+@media (max-width: 1000px) {
+	* { width: 100% !important}
+}
