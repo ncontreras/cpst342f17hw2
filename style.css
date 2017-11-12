@@ -48,13 +48,18 @@ table {
 }
 
 /**
- *###################
- *## END CSS RESET ##
- *###################
+ *############################################
+ *########## END CSS RESET ###################
+ *############################################
  */
 
+
+body {
+	font-size: 16px;
+}
+
 header {
-	background: gray;
+	background: #96281B;
 	padding: 20px 0;
 	margin-bottom: 50px;
 	color: white;
@@ -65,8 +70,12 @@ header .sitemap {
 	padding-right: 50px;
 }
 
-body {
-	font-size: 16px;
+a{
+	color: #FDE3A7;
+}
+
+a.visited{
+	color: #E9D460;
 }
 
 main{
@@ -77,24 +86,21 @@ main{
 h1 {
 	margin: 0 auto;
 	margin-bottom: 15px;
-	/*padding: 5px 10px;*/
-	/*border: 2px dashed navy;*/
-	width: 100%;
-	box-sizing: border-box;
-	display: inline-block;
 	text-align: left;
+	background-color: yellow; /*added color to visually confirm color sizes*/
 
-	color: navy;
+	color: #336E7B;
 	font-size: 2.5rem;
 	font-weight: bold;
 	font-family: 'Arial', serif;
 }
 
 h2 {
-	color: navy;
+	color: #336E7B;
 	font-size: 1.25rem;
 	font-weight: bold;
 	font-family: 'Arial', sans-serif;
+	background-color: red; /*added color to visually confirm color sizes*/
 
 	margin-bottom: 10px;
 }
@@ -102,10 +108,11 @@ h2 {
 p {
 	margin-bottom: 30px; /* 30px is required*/
 	line-height: 25px;
+	background: pink; /*added color to visually confirm color sizes*/
 }
 
 footer {
-	background: green;
+	background: #013243;
 	padding: 20px 0;
 	color: white;
 }
@@ -115,7 +122,91 @@ footer .sitemap {
   padding-right: 50px;
 }
 
+/*###################
+######### GRID ######
+#####################*/
 
+.col1 {
+	margin-left: 0;
+	float: left;
+	width: 8.3%;
+}
+
+.col2 {
+	margin-left: 0;
+	float: left;
+	width: 16.6%;
+}
+
+.col3 {
+	margin-left: 0;
+	float: left;
+	width: 24.9%;
+}
+
+.col4 {
+	margin-left: 0;
+	float: left;
+	width: 33.2%;
+}
+
+.col5 {
+	margin-left: 0;
+	float: left;
+	width: 41.5%;
+}
+
+.col6 {
+	margin-left: 0;
+	float: left;
+	width: 49.8%;
+}
+
+.col7 {
+	margin-left: 0;
+	float: left;
+	width: 58.1%;
+}
+
+.col8 {
+	margin-left: 0;
+	float: left;
+	width: 66.4%;
+}
+
+.col9 {
+	margin-left: 0;
+	float: left;
+	width: 74.7%;
+}
+
+.col10 {
+	margin-left: 0;
+	float: left;
+	width: 83%;
+}
+
+.col11 {
+	margin-left: 0;
+	float: left;
+	width: 91.3%;
+} 
+
+/*col 12 is 100% of the page*/
+
+.row {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.row::after {
+	content:"";
+	display: block;
+	clear:both;
+}
+
+/*############# RESPONSIVENESS #################*/
 @media (max-width: 1000px) {
 	* { width: 100% !important}
 }
