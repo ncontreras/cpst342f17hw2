@@ -63,6 +63,7 @@ header {
 	padding: 20px 0;
 	margin-bottom: 50px;
 	color: white;
+	font-family: 'Abel', sans-serif;
 }
 
 header .sitemap {
@@ -81,40 +82,39 @@ a.visited{
 main{
 	width: 1000px;
 	margin: 0 auto;
+	font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
 	margin: 0 auto;
 	margin-bottom: 15px;
 	text-align: left;
-	background-color: yellow; /*added color to visually confirm color sizes*/
-
+	background-color: yellow; /*added color to visually confirm column sizes*/
 	color: #336E7B;
 	font-size: 2.5rem;
 	font-weight: bold;
-	font-family: 'Arial', serif;
+	
 }
 
 h2 {
 	color: #336E7B;
 	font-size: 1.25rem;
 	font-weight: bold;
-	font-family: 'Arial', sans-serif;
-	background-color: red; /*added color to visually confirm color sizes*/
-
+	background-color: red; /*added color to visually confirm column sizes*/
 	margin-bottom: 10px;
 }
 
 p {
 	margin-bottom: 30px; /* 30px is required*/
 	line-height: 25px;
-	background: pink; /*added color to visually confirm color sizes*/
+	background: pink; /*added color to visually confirm column sizes*/
 }
 
 footer {
 	background: #013243;
 	padding: 20px 0;
 	color: white;
+	font-family: 'Abel', sans-serif;
 }
 
 footer .sitemap {
@@ -126,69 +126,52 @@ footer .sitemap {
 ######### GRID ######
 #####################*/
 
-.col1 {
+.col {
 	margin-left: 0;
 	float: left;
+}
+
+.col-1 {
 	width: 8.3%;
 }
 
-.col2 {
-	margin-left: 0;
-	float: left;
+.col-2 {
 	width: 16.6%;
 }
 
-.col3 {
-	margin-left: 0;
-	float: left;
+.col-3 {
 	width: 24.9%;
 }
 
-.col4 {
-	margin-left: 0;
-	float: left;
+.col-4 {
 	width: 33.2%;
 }
 
-.col5 {
-	margin-left: 0;
-	float: left;
+.col-5 {
 	width: 41.5%;
 }
 
-.col6 {
-	margin-left: 0;
-	float: left;
+.col-6 {
 	width: 49.8%;
 }
 
-.col7 {
-	margin-left: 0;
-	float: left;
+.col-7 {
 	width: 58.1%;
 }
 
-.col8 {
-	margin-left: 0;
-	float: left;
+.col-8 {
 	width: 66.4%;
 }
 
-.col9 {
-	margin-left: 0;
-	float: left;
+.col-9 {
 	width: 74.7%;
 }
 
-.col10 {
-	margin-left: 0;
-	float: left;
+.col-10 {
 	width: 83%;
 }
 
-.col11 {
-	margin-left: 0;
-	float: left;
+.col-11 {
 	width: 91.3%;
 } 
 
