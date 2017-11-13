@@ -91,6 +91,7 @@ h1 {
 	text-align: left;
 	background-color: yellow; /*added color to visually confirm column sizes*/
 	color: #336E7B;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 2.5rem;
 	font-weight: bold;
 	
@@ -98,6 +99,7 @@ h1 {
 
 h2 {
 	color: #336E7B;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.25rem;
 	font-weight: bold;
 	background-color: red; /*added color to visually confirm column sizes*/
@@ -105,6 +107,7 @@ h2 {
 }
 
 p {
+	font-family: 'Quicksand', sans-serif;
 	margin-bottom: 30px; /* 30px is required*/
 	line-height: 25px;
 	background: pink; /*added color to visually confirm column sizes*/
